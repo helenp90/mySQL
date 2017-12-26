@@ -26,16 +26,25 @@ INSERT INTO products (product_name, department_name, price, quantity)
 VALUES ("sheetmask", "skincare", 50.00, 100);
 
 INSERT INTO products (product_name, department_name, price, quantity)
-VALUES ("20 oz bag of m&m's", "candy", 100.00, 25);
+VALUES ("20 oz bag of m&m's", "candy", 10.00, 65);
 
 INSERT INTO products (product_name, department_name, price, quantity)
-VALUES ("slippers", "Women's Shoes", 45.99, 100);
+VALUES ("slippers", "Women's Shoes", 15.00, 100);
 
 INSERT INTO products (product_name, department_name, price, quantity)
-VALUES ("kate somerville goatmilk moisturizer", "skincare", 50.00, 100);
+VALUES ("kate somerville goatmilk moisturizer", "skincare", 75.00, 100);
 
 INSERT INTO products (product_name, department_name, price, quantity)
 VALUES ("JCrew Jean Jacket", "Women's Clothes", 100.00, 25);
 
 INSERT INTO products (product_name, department_name, price, quantity)
-VALUES ("Lion Bar", "candy", 45.99, 100);
+VALUES ("Lion Bar", "candy", 1.50, 3000);
+
+INSERT INTO products (product_name, department_name, price, quantity)
+VALUES ("Starbucks Coffee 1oz bag of beans", "grocery", 9.00, 10000);
+
+
+
+-- ### Alternative way to insert more than one row
+-- INSERT INTO products (flavor, price, quantity)
+-- VALUES ("vanilla", 2.50, 100), ("chocolate", 3.10, 120), ("strawberry", 3.25, 75);
